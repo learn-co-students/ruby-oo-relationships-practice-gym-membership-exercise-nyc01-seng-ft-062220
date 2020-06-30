@@ -14,7 +14,12 @@ gym1 = Gym.new("Golds Gym")
 gym2 = Gym.new("Lifting Pro")
 gym3 = Gym.new("Black Belt Gym")
 
-
+lifter1.new_membership(50, gym1)
+lifter2.new_membership(30, gym1)
+lifter3.new_membership(45, gym2)
+lifter4.new_membership(45, gym2)
+lifter5.new_membership(50, gym1)
+lifter1.new_membership(30, gym2)
 
 binding.pry
 
